@@ -1,0 +1,12 @@
+@use '../01_fundaments/variables';
+
+.content {
+    padding-left: variables.$padding-16;
+    padding-right: variables.$padding-16;
+
+    //Vanaf mobile
+    @media (min-width: 768px) {
+        padding-left: variables.$padding-64; 
+        padding-right: variables.$padding-64;
+    }
+}

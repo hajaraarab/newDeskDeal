@@ -1,5 +1,8 @@
 @include('partials.header')
 
-    <h1>Dit is welcome</h1>
+<div class="content">
+    <h1>Welcome to the Index Page</h1>
+    <p>This is the content of the index page.</p>
+</div>
 
 @include('partials.footer')
