@@ -1,0 +1,50 @@
+@use '../01_fundaments/variables';
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        gap: variables.$gap-32; //NOG AAN TE PASSEN 
+        list-style: none;
+
+        //Vanaf mobile
+        @media (min-width: 768px) {
+            gap: variables.$gap-48;
+        }
+    }
+    .logo, .user-menu, ul{
+        display:flex; 
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        gap: variables.$gap-8;
+
+        //Vanaf mobile
+        @media (min-width: 768px) {
+            gap: variables.$gap-16;
+        }
+    }
+
+    .logo-img{
+        width: 30px; 
+        height: 30px;
+
+        //Vanaf mobile
+        @media (min-width: 768px) {
+            width: 54px; 
+            height: 54px;
+        }
+}
+}
+
+.logo-img{
+    //Vanaf mobile
+    @media (min-width: 768px) {
+        width: 54px; 
+        height: 54px;
+    }
+}
