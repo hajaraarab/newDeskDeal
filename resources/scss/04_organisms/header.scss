@@ -5,8 +5,10 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    margin: variables.$margin-16 variables.$margin-64 0;
-
+    margin-left: variables.$margin-64;
+    margin-right: variables.$margin-64;
+    margin-top: variables.$margin-16;
+    
     border: 3px solid variables.$primary-color;
     border-radius: 16px;
 
